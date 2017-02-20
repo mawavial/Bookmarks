@@ -1,21 +1,12 @@
-Project name: bookmarks
-
-Quick Summary:
-	This project is designed to be a simple web project
-	backed up by some of the top trending technologies.
-	
-	
-	
-	
-	
-	
-# README #
+#Bookmarks README#
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
 * Quick summary
+** 	This project is designed to be a simple web project
+	backed up by some of the top trending technologies.
 * Version
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
