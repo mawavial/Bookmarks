@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from bkm_app.models import Bookmark
+
+admin.site.register(Bookmark)

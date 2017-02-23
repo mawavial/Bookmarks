@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bkm_app',
-    'rest_framework',
+    'bkm_app'
+    
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,12 @@
+{% extends "bkm_app/base.html" %}
+
+{% block content%}
+<p> Add new bookmark:</p>
+
+<form action="{% url 'bkm_app:new_bookmark' %}" method="post" >
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button name='submit'>add Bookmark</button>
+</form>
+
+{% endblock content %}

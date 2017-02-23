@@ -1,0 +1,13 @@
+{% extends "bkm_app/base.html" %}
+
+{% block content %}
+
+<p><a href="{% url 'bkm_app:bookmark' bookmark.id %}">{{ bookmark }}</a></p>
+<p>Edit bookmark: </p>
+<form action="{% url 'bkm_app:edit_bookmark' bookmark.id %}" method='post'>
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button name="submit">save changes</button>
+</form>
+
+{% endblock content %}
